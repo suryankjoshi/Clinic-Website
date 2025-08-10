@@ -13,6 +13,6 @@ _, mid, _ = st.columns([1,2,1])
 with mid:
     c1, c2 = st.columns(2)
     with c1:
-        st.page_link("pages/1_New Patient.py", label="➕ New Patient", help="Add patient demographics", use_container_width=True)
+        st.page_link("pages/1_New_Patient.py", label="➕ New Patient", help="Add patient demographics", use_container_width=True)
     with c2:
-        st.page_link("pages/2_Symptoms (Doctor).py", label="🩺 Symptoms (Doctor)", help="Doctor-only", use_container_width=True)
+        st.page_link("pages/2_Symptoms.py", label="🩺 Symptoms (Doctor)", help="Doctor-only", use_container_width=True)
